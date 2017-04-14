@@ -1,0 +1,26 @@
+.triangel img {
+    width: 100%;
+}
+
+/*.icon-header {
+    width: 100%
+
+}*/
+
+/*.icon-header img {
+    padding: 10px 30%;
+
+}*/
+
+.icon-header .img-box {
+    margin: 0 auto;
+    height: 60px;
+    width: 140px;
+}
+
+.icon-header .img-box img {
+    width: 100%;
+    height: 60px;
+}
+
+
