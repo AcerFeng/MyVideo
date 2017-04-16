@@ -73,11 +73,11 @@ html {
 
 .video-list {
 	border: 0.1rem solid #ccc;
-	padding: 1rem 0;
+	padding-top: 1rem;
 }
 
 .video-item {
-	margin-bottom: 1rem;
+	margin-bottom: 1.2rem;
 }
 
 .video-item img {
@@ -102,5 +102,6 @@ html {
 .item-bottom .sub-title {
 	font-size: 1.2rem;
 	margin: 0.3rem auto 0;
+	color: #999;
 }
 
