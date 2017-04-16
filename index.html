@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="http://v3.bootcss.com/assets/css/docs.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -22,44 +23,6 @@
         padding-bottom: 40px;
         color: #5a5a5a;
     }*/
-    
-    .navbar {
-        margin-bottom: 0px;
-        background-color: rgba(0, 0, 0, 0.7);
-        border: 0;
-    }
-    /*.navbar .navbar-header {
-        margin: auto 0;
-    }*/
-    
-    .nav-content {
-        padding-left: 18rem;
-    }
-    
-    .carousel {
-        height: 500px;
-    }
-    
-    .carousel .item {
-        height: 500px;
-        background-color: #000;
-    }
-    
-    .carousel .item img {
-        width: 100%;
-    }
-    
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 20px;
-        line-height: 1.8;
-    }
-    
-    #search-bar input {
-        width: 250px;
-    }
-
-    #myTab {}
     
     @media (max-width: 992px) {
         #search-bar input {
@@ -180,12 +143,10 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
-    <div class="mid-header" style="margin-top:40px; ">
+    <div class="mid-header">
         <h1 class="text-center">最近热播</h1>
     </div>
-
-    <div class="container content">
+    <div class="container">
         <div>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist" id="myTab">
@@ -196,41 +157,107 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="tab-chrome">
-                    <div class="row feature">
+                    <div class="row feature show-grid">
                         <div class="container">
-                          <div class="row">
-                            <div class="tx-module col-md-4">
-                                <div class="triangel">
-                                    <img src="images/QQ20170414-194942.jpg">
-                                </div>
-                                <div class="icon-header">
-                                    <div class="img-box">
-                                    <img src="images/tx-logo.png" alt="腾讯视频">
+                            <div class="row show-grid">
+                                <div class="video-module col-md-4">
+                                    <div class="triangel">
+                                        <img src="images/QQ20170414-194942.jpg">
                                     </div>
+                                    <div class="icon-header">
+                                        <div class="img-box">
+                                            <img src="images/tx-logo.png" alt="腾讯视频">
+                                        </div>
+                                    </div>
+                                    <div class="video-list">
+                                        <ul class="list-unstyled col-md-12">
+                                            <div class="row">
+                                                <li class="col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="video-item">
+                                                        <a href="#">
+                                                            <div class="item-img-box">
+                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                            </div>
+                                                            <p class="update-status">更新至25集</p>
+                                                        </a>
+                                                        <div class="item-bottom">
+                                                            <p class="video-name">人民的名义</p>
+                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="col-md-6 col-sm-6 col-xs-6"><div class="video-item">
+                                                        <a href="#">
+                                                            <div class="item-img-box">
+                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                            </div>
+                                                            <p class="update-status">更新至25集</p>
+                                                        </a>
+                                                        <div class="item-bottom">
+                                                            <p class="video-name">人民的名义</p>
+                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                        </div>
+                                                    </div></li>
+                                                <li class="col-md-6 col-sm-6 col-xs-6"><div class="video-item">
+                                                        <a href="#">
+                                                            <div class="item-img-box">
+                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                            </div>
+                                                            <p class="update-status">更新至25集</p>
+                                                        </a>
+                                                        <div class="item-bottom">
+                                                            <p class="video-name">人民的名义</p>
+                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                        </div>
+                                                    </div></li>
+                                                <li class="col-md-6 col-sm-6 col-xs-6"><div class="video-item">
+                                                        <a href="#">
+                                                            <div class="item-img-box">
+                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                            </div>
+                                                            <p class="update-status">更新至25集</p>
+                                                        </a>
+                                                        <div class="item-bottom">
+                                                            <p class="video-name">人民的名义</p>
+                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                        </div>
+                                                    </div></li>
+                                                <li class="col-md-6 col-sm-6 col-xs-6"><div class="video-item">
+                                                        <a href="#">
+                                                            <div class="item-img-box">
+                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                            </div>
+                                                            <p class="update-status">更新至25集</p>
+                                                        </a>
+                                                        <div class="item-bottom">
+                                                            <p class="video-name">人民的名义</p>
+                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                        </div>
+                                                    </div></li>
+                                                <li class="col-md-6 col-sm-6 col-xs-6"><div class="video-item">
+                                                        <a href="#">
+                                                            <div class="item-img-box">
+                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                            </div>
+                                                            <p class="update-status">更新至25集</p>
+                                                        </a>
+                                                        <div class="item-bottom">
+                                                            <p class="video-name">人民的名义</p>
+                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                        </div>
+                                                    </div></li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                    <img src="image/video-footer.jpg" alt="">
                                 </div>
-                                <!-- <div class="icon-header">
-                                    <img src="images/tx-logo.png" alt="腾讯视频">
-                                </div> -->
-                                <div class="video-list">
-                                    <ul class="list-unstyled">
-                                        <div class="row">
-                                        <li class="col-md-6 col-sm-6 col-xs-6">item1</li>
-                                        <li class="col-md-6 col-sm-6 col-xs-6">item2</li>
-                                        <li class="col-md-6 col-sm-6 col-xs-6">item3</li>
-                                        <li class="col-md-6 col-sm-6 col-xs-6">item4</li>
-                                        <li class="col-md-6 col-sm-6 col-xs-6">item5</li>
-                                        <li class="col-md-6 col-sm-6 col-xs-6">item6</li></div>
-                                    </ul>
+                                <div class="aiqiyi-module col-md-4">
+                                    dfd
                                 </div>
-                                <img src="image/video-footer.jpg" alt="">
+                                <div class="youku-module col-md-4">
+                                    dfdfs
+                                </div>
                             </div>
-                            <div class="aiqiyi-module col-md-4">
-                              dfd
-                            </div>
-                            <div class="youku-module col-md-4">
-                              dfdfs
-                            </div>
-                          </div>
                         </div>
                     </div>
                 </div>

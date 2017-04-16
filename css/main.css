@@ -1,26 +1,105 @@
+html {
+	font-size: 62.5%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0;
+}
+
+
+/*.navbar .navbar-header {
+        margin: auto 0;
+    }*/
+
+.nav-content {
+    padding-left: 18rem;
+}
+
+.carousel {
+    height: 38rem;
+}
+
+.carousel .item {
+    height: 38rem;
+    background-color: #000;
+}
+
+.carousel .item img {
+    width: 100%;
+}
+
+.carousel-caption p {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+#search-bar input {
+    width: 25rem;
+}
+
+.video-module {
+	margin-top: 4rem;
+}
+
+.list-box {
+
+}
+
+.triangel {
+
+}
+
 .triangel img {
     width: 100%;
 }
 
-/*.icon-header {
-    width: 100%
-
-}*/
-
-/*.icon-header img {
-    padding: 10px 30%;
-
-}*/
+.icon-header {
+	border: 0.1rem solid #ccc;
+}
 
 .icon-header .img-box {
-    margin: 0 auto;
-    height: 60px;
-    width: 140px;
+    margin: 2rem auto;
+    height: 4rem;
+    width: 14rem;
 }
 
 .icon-header .img-box img {
     width: 100%;
-    height: 60px;
+    height: 100%;
 }
 
+.video-list {
+	border: 0.1rem solid #ccc;
+}
+
+.video-item {
+	margin-bottom: 1rem;
+}
+
+.video-item img {
+	width: 100%;
+}
+
+.update-status {
+	line-height: 1rem;
+	margin-top: -2rem;
+	padding-left: 1rem;
+	color: #fff;
+}
+
+.item-bottom {
+	margin-top: 1.3rem;
+}
+
+.item-bottom .video-name {
+	margin: 0 auto;
+}
+
+.item-bottom .sub-title {
+	font-size: 1.2rem;
+	margin: 0.3rem auto 0;
+}
 
