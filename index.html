@@ -18,15 +18,15 @@
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
     <style>
-    /*body {
-        padding-top: 50px;
-        padding-bottom: 40px;
-        color: #5a5a5a;
-    }*/
-    
     @media (max-width: 992px) {
         #search-bar input {
             width: 100%;
+        }
+        .content {
+            width: 100%;
+        }
+        .video-list ul li {
+            padding: 0 0.5rem;
         }
     }
     
@@ -36,6 +36,18 @@
         }
         #search-bar input {
             width: 100%;
+        }
+        .content {
+            width: 100%;
+        }
+        .video-list ul li {
+            padding: 0 0.3rem;
+        }
+        .content .container-fluid .row {
+            margin: 0;
+        }
+        div.video-module {
+            padding: 0;
         }
     }
     </style>
@@ -146,161 +158,392 @@
     <div class="mid-header">
         <h1 class="text-center">最近热播</h1>
     </div>
-    <div class="container">
-        <div>
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist" id="myTab">
-                <li role="presentation" class="active"><a href="#tab-chrome" aria-controls="chrome" role="tab" data-toggle="tab">电视剧</a></li>
-                <li role="presentation"><a href="#tab-firefox" aria-controls="firefox" role="tab" data-toggle="tab">综艺</a></li>
-                <li role="presentation"><a href="#tab-safari" aria-controls="safari" role="tab" data-toggle="tab">电影</a></li>
-            </ul>
-            <!-- Tab panes -->
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="tab-chrome">
-                    <div class="row feature">
-                        <div class="container">
-                            <div class="row">
-                                <div class="video-module col-md-4 col-sm-6">
-                                    <div class="triangel">
-                                        <img src="images/QQ20170414-194942.jpg">
-                                    </div>
-                                    <div class="icon-header">
-                                        <div class="img-box">
-                                            <img src="images/tx-logo.png" alt="腾讯视频">
+    <div class="content">
+        <div class="container-fluid">
+            <div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist" id="myTab">
+                    <li role="presentation" class="active"><a href="#tab-chrome" aria-controls="chrome" role="tab" data-toggle="tab">电视剧</a></li>
+                    <li role="presentation"><a href="#tab-firefox" aria-controls="firefox" role="tab" data-toggle="tab">综艺</a></li>
+                    <li role="presentation"><a href="#tab-safari" aria-controls="safari" role="tab" data-toggle="tab">电影</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="tab-chrome">
+                        <div class="row feature">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="video-module col-md-4 col-sm-6">
+                                        <div class="triangel">
+                                            <img src="images/QQ20170414-194942.jpg">
+                                        </div>
+                                        <div class="icon-header">
+                                            <div class="img-box">
+                                                <img src="images/tx-logo.png" alt="腾讯视频">
+                                            </div>
+                                        </div>
+                                        <div class="video-list">
+                                            <div class="row">
+                                                <ul class="list-unstyled col-md-12">
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="video-list">
-                                        <div class="row">
-                                            <ul class="list-unstyled col-md-12">
-                                                <li class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="video-item">
-                                                        <a href="#">
-                                                            <div class="item-img-box">
-                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                    <div class="video-module col-md-4 col-sm-6">
+                                        <div class="triangel">
+                                            <img src="images/QQ20170414-194942.jpg">
+                                        </div>
+                                        <div class="icon-header">
+                                            <div class="img-box">
+                                                <img src="images/tx-logo.png" alt="腾讯视频">
+                                            </div>
+                                        </div>
+                                        <div class="video-list">
+                                            <div class="row">
+                                                <ul class="list-unstyled col-md-12">
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
                                                             </div>
-                                                            <p class="update-status">更新至25集</p>
-                                                        </a>
-                                                        <div class="item-bottom">
-                                                            <a href="#"><p class="video-name">人民的名义</p></a>
-                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                                <li class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="video-item">
-                                                        <a href="#">
-                                                            <div class="item-img-box">
-                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
                                                             </div>
-                                                            <p class="update-status">更新至25集</p>
-                                                        </a>
-                                                        <div class="item-bottom">
-                                                            <p class="video-name">人民的名义</p>
-                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                                <li class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="video-item">
-                                                        <a href="#">
-                                                            <div class="item-img-box">
-                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
                                                             </div>
-                                                            <p class="update-status">更新至25集</p>
-                                                        </a>
-                                                        <div class="item-bottom">
-                                                            <p class="video-name">人民的名义</p>
-                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                                <li class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="video-item">
-                                                        <a href="#">
-                                                            <div class="item-img-box">
-                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
                                                             </div>
-                                                            <p class="update-status">更新至25集</p>
-                                                        </a>
-                                                        <div class="item-bottom">
-                                                            <p class="video-name">人民的名义</p>
-                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                                <li class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="video-item">
-                                                        <a href="#">
-                                                            <div class="item-img-box">
-                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
                                                             </div>
-                                                            <p class="update-status">更新至25集</p>
-                                                        </a>
-                                                        <div class="item-bottom">
-                                                            <p class="video-name">人民的名义</p>
-                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                                <li class="col-md-6 col-sm-6 col-xs-6 clearfix">
-                                                    <div class="video-item">
-                                                        <a href="#">
-                                                            <div class="item-img-box">
-                                                                <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
                                                             </div>
-                                                            <p class="update-status">更新至25集</p>
-                                                        </a>
-                                                        <div class="item-bottom">
-                                                            <p class="video-name">人民的名义</p>
-                                                            <p class="sub-title">主演：陆毅 张丰毅</p>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <img src="image/video-footer.jpg" alt="">
-                                </div>
-                                <div class="video-module col-md-4 col-sm-6">
-                                    dfd
-                                </div>
-                                <div class="video-module col-md-4 col-sm-12">
-                                    dfdfs
+                                    <div class="video-module col-md-4 col-sm-6">
+                                        <div class="triangel">
+                                            <img src="images/QQ20170414-194942.jpg">
+                                        </div>
+                                        <div class="icon-header">
+                                            <div class="img-box">
+                                                <img src="images/tx-logo.png" alt="腾讯视频">
+                                            </div>
+                                        </div>
+                                        <div class="video-list">
+                                            <div class="row">
+                                                <ul class="list-unstyled col-md-12">
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="col-md-6 col-sm-6 col-xs-4">
+                                                        <div class="video-item">
+                                                            <a href="#">
+                                                                <div class="item-img-box">
+                                                                    <img src="https://modao.cc/uploads3/images/876/8762041/raw_1492086441.jpeg" title="人民的名义">
+                                                                </div>
+                                                                <p class="update-status">更新至25集</p>
+                                                            </a>
+                                                            <div class="item-bottom">
+                                                                <a href="http://www.baidu.com">
+                                                                    <p class="video-name">人民的名义</p>
+                                                                    <p class="sub-title">主演：陆毅 张丰毅</p>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="tab-firefox">
-                    <div class="row feature">
-                        <div class="col-md-5">
-                            <img class="feature-image img-responsive" src="images/firefox-logo.jpg" alt="Firefox">
-                        </div>
-                        <div class="col-md-7">
-                            <h2 class="feature-heading">Mozilla Firefox <span class="text-muted">美丽的狐狸</span>
+                    <div role="tabpanel" class="tab-pane" id="tab-firefox">
+                        <div class="row feature">
+                            <div class="col-md-5">
+                                <img class="feature-image img-responsive" src="images/firefox-logo.jpg" alt="Firefox">
+                            </div>
+                            <div class="col-md-7">
+                                <h2 class="feature-heading">Mozilla Firefox <span class="text-muted">美丽的狐狸</span>
                     </h2>
-                            <p class="lead">Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器， 使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。
-                            </p>
+                                <p class="lead">Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器， 使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="tab-safari">
-                    <div class="row feature">
-                        <div class="col-md-7">
-                            <h2 class="feature-heading">Safari <span class="text-muted">Mac用户首选</span></h2>
-                            <p class="lead">Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器，使用了KDE的KHTML作为浏览器的运算核心。 Safari在2003年1月7日首度发行测试版，并成为Mac OS X v10.3与之后的默认浏览器，也是iPhone与IPAD和iPod touch的指定浏览器。</p>
-                        </div>
-                        <div class="col-md-5">
-                            <img class="feature-image img-responsive" src="images/safari-logo.jpg" alt="Safari">
+                    <div role="tabpanel" class="tab-pane" id="tab-safari">
+                        <div class="row feature">
+                            <div class="col-md-7">
+                                <h2 class="feature-heading">Safari <span class="text-muted">Mac用户首选</span></h2>
+                                <p class="lead">Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器，使用了KDE的KHTML作为浏览器的运算核心。 Safari在2003年1月7日首度发行测试版，并成为Mac OS X v10.3与之后的默认浏览器，也是iPhone与IPAD和iPod touch的指定浏览器。</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="feature-image img-responsive" src="images/safari-logo.jpg" alt="Safari">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <footer>
+                <p class="pull-right"><a href="#top">返回顶部</a></p>
+                <p>&copy; 2017 哈哈哈</p>
+            </footer>
         </div>
-        <footer>
-            <p class="pull-right"><a href="#top">返回顶部</a></p>
-            <p>&copy; 2017 哈哈哈</p>
-        </footer>
     </div>
     <footer>
         sdf
