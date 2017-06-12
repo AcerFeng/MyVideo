@@ -142,6 +142,13 @@ body {
 
 #search-bar input {
     width: 25rem;
+    background-color: #1A1E2B;
+    color: #7fe;
+}
+
+#search-bar button {
+    background-color: #1A1E2B;
+    color: #eff;
 }
 
 .tab-content .container-fluid .row {
