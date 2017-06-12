@@ -5,7 +5,7 @@ html {
 body {
     padding-top: 50px;
     color: #5a5a5a;
-    background-color: #1A1E2B;
+    background-color: #1F2533;
 }
 
 .mid-header {
@@ -269,7 +269,7 @@ hr.feature-divider {
 footer {
     margin-top: 4rem;
     height: 20rem;
-    background-color: #EEE;
+    background-color: #1A1E2B;
 }
 
 footer .friend-link {
