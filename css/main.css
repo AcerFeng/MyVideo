@@ -214,13 +214,14 @@ body {
 
 .update-status {
     line-height: 1rem;
-    margin-top: -2rem;
-    padding-left: 1rem;
-    color: #7fe;
+    margin-top: -1.5rem;
+    padding-left: 0.8rem;
+    color: #999;
+    font-size: 1rem;
 }
 
 .item-bottom {
-    margin-top: 1.3rem;
+    margin-top: 1rem;
 }
 
 .item-bottom a {
@@ -244,7 +245,7 @@ body {
 }
 
 .item-bottom .sub-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0.3rem auto 0;
     color: #999;
 }
