@@ -5,7 +5,7 @@ html {
 body {
     padding-top: 50px;
     color: #5a5a5a;
-    background-color: #1F2533;
+    background-color: #3A3C40;
 }
 
 .mid-header {
@@ -51,21 +51,21 @@ body {
 }
 
 .navbar-default {
-  background-color: #1a1e2b;
+  background-color: #3a3c40;
   border-color: #111111;
 }
 .navbar-default .navbar-brand {
-  color: #eeffff;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #77ffee;
 }
 .navbar-default .navbar-text {
-  color: #eeffff;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #eeffff;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -91,14 +91,14 @@ body {
   background-color: #111111;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #eeffff;
+  background-color: #ecf0f1;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #eeffff;
+  border-color: #ecf0f1;
 }
 .navbar-default .navbar-link {
-  color: #eeffff;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-link:hover {
   color: #77ffee;
@@ -106,7 +106,7 @@ body {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #eeffff;
+    color: #ecf0f1;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -142,12 +142,12 @@ body {
 
 #search-bar input {
     width: 25rem;
-    background-color: #1A1E2B;
+    background-color: #3A3C40;
     color: #7fe;
 }
 
 #search-bar button {
-    background-color: #1A1E2B;
+    background-color: #3A3C40;
     color: #eff;
 }
 
@@ -172,7 +172,7 @@ body {
 }*/
 
 .video-container {
-  background-color: #2C3441;
+  background-color: #242629;
 }
 
 .icon-header {
@@ -270,7 +270,7 @@ hr.feature-divider {
 footer {
     margin-top: 4rem;
     height: 20rem;
-    background-color: #1A1E2B;
+    background-color: #242629;
 }
 
 footer .friend-link {
